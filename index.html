@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Management System</h1>
+
+    <form id="studentForm">
+
+        <label for="name">Student Name</label>
+        <input
+                type="text"
+                id="name"
+                placeholder="Enter student name"
+                required
+        >
+
+        <label for="rollno">Roll Number</label>
+        <input
+                type="text"
+                id="rollno"
+                placeholder="Enter roll number"
+                required
+        >
+
+        <label for="section">Section</label>
+        <input
+                type="text"
+                id="section"
+                placeholder="Enter section"
+                required
+        >
+
+        <label for="course">Course</label>
+        <input
+                type="text"
+                id="course"
+                placeholder="Enter course"
+                required
+        >
+
+        <button type="submit">
+            Register Student
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
